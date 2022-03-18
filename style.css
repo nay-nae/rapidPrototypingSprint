@@ -1,10 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
 
 body{
     font-family: 'Staatliches', cursive;
     padding:0%; 
     margin:0%;
     font-size: 35px;
+}
+
+h1{
+  padding-top:20px;
+  padding-left:20px;
+  color:pink;
+  font-size:50px;
+}
+
+.column{
+  font-size:40px;
+  border: 3px solid rgb(157, 206, 248);
+  padding: 10px;
+  margin:5px;
+}
+.para1{
+  padding:20px;
+  font-family: 'Smooch Sans', sans-serif;
+  Float:left; 
+  Width:66.6%; 
+}
+.para2{
+  padding:20px;
+  font-family: 'Smooch Sans', sans-serif;
+  Float:left; 
+  Width:66.6%; 
+}
+
+.para3{
+  padding:20px;
+  font-family: 'Smooch Sans', sans-serif; 
+  Float:left; 
+  Width:66.6%; 
+}
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+    padding:20px;
+}
+
+p{
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 30px;
 }
 
 .navbar {
@@ -26,18 +80,12 @@ body{
     background-color: pink;
     color:aliceblue;
 }
-/* @media (min-width: 768px) { */
-    /* .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
-      /* padding-top: 26.5px;
-      padding-bottom: 26.5px;
-      line-height: 27px; */
-    /* }
-  } */
-/* li .nav-item{
-    color:rgb(157, 206, 248)!important;
-    padding: 10px; */
-/* } */
+
+.card {
+  top: 20px;
+  left: 25px;
+  display:inline-block;
+}
 
 li:hover{
     background-color: pink;
@@ -53,7 +101,18 @@ li{
     padding: 10px;
     z-index: -99;
   }
-
+/* @media (min-width: 768px) { */
+    /* .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      /* padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px; */
+    /* }
+  } */
+/* li .nav-item{
+    color:rgb(157, 206, 248)!important;
+    padding: 10px; */
+/* } */
     /* button{
     position: absolute;
     top: 50%;
